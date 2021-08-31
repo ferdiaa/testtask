@@ -227,7 +227,6 @@ main {
 .talkto {
 	color: #fff;
 	width: 17%;
-	height: 4%;
 	padding: 1em;
 	margin: auto;
 	background-image: linear-gradient(to bottom, #fe9501, #fe9501, #fe9501, #fe9501, #fe9501);
@@ -636,6 +635,53 @@ main {
 	}
 
 	.button {
+		font-size: .50em;
+	}
+}
+
+@media (min-width: 320px) {
+
+	.subs {
+		display: flex;
+		justify-content: flex-end;
+		padding-right: .30em;
+		margin-bottom: 2em;
+	}
+
+	.subs li {
+		list-style: none;
+		font-size: .30em;
+		width: 20%;
+		text-align: center;
+		padding: 1em 0;
+		border-radius: 3px;
+		color: #fff;
+	}
+
+	.subs li:nth-child(1) {
+		background-image: linear-gradient(to bottom, #636363, #5e5e5e, #585858, #535353, #4e4e4e);
+	}
+
+	.subs li:nth-child(2) {
+		background-image: linear-gradient(to bottom, #5f3fe2, #5939d9, #5233cf, #4c2dc6, #4527bd);
+		margin: 0 1em;
+	}
+
+	.subs li:nth-child(3) {
+		background-image: linear-gradient(to bottom, #fe9501, #fa8d05, #f68609, #f27e0d, #ed7710);
+	}
+
+	.round {
+		width: 10px;
+		height: 10px;
+		float: left;
+	}
+
+	.sub {
+		padding: 0 2em;
+	}
+
+	.sub li {
 		font-size: .50em;
 	}
 }
