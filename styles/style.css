@@ -91,7 +91,10 @@ main {
     width: 80%;
     padding: 1em 0;
     margin: auto;
-    background-color: #ddd;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    border: 2px solid white;
+    outline: white;
     border-radius: 3px;
 }
 
@@ -223,10 +226,11 @@ main {
 
 .talkto {
 	color: #fff;
-	width: 18%;
+	width: 17%;
+	height: 4%;
 	padding: 1em;
 	margin: auto;
-	background-image: linear-gradient(to bottom, #fe9501, #fa8d05, #f68609, #f27e0d, #ed7710);
+	background-image: linear-gradient(to bottom, #fe9501, #fe9501, #fe9501, #fe9501, #fe9501);
 	border-radius: 3px;
 	margin-bottom: 5em;
 	font-size: .90em;
@@ -544,7 +548,7 @@ main {
 	}
 
 	.talkto {
-		width: 40%;
+		width: 60%;
 		font-size: .80em;
 	}
 
