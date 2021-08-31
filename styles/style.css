@@ -115,6 +115,10 @@ main {
 	margin-bottom: 1em;
 }
 
+.benefita {
+	margin-bottom: 1.5em;
+}
+
 .benefitcontent {
 	margin-bottom: 1em;
 }
@@ -126,7 +130,7 @@ main {
 
 .profes, .busi, .enter {
 	text-align: center;
-	width: 25%;
+	width: 100%;
 }
 
 .profes {
@@ -138,7 +142,6 @@ main {
 	color: #6141e5;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;	
-	width: 25%;
 }
 
 .desc {
@@ -162,6 +165,10 @@ main {
 	color: #ff9700;
 }
 
+.benefit2 {
+	color: #ff9700;
+}
+
 .emails {
 	margin-bottom: .65em;
 }
@@ -170,8 +177,16 @@ main {
 	margin-bottom: 1em;
 }
 
+.unlimited2 {
+	margin-bottom: 1em;
+}
+
 .actives {
-	margin-bottom: .70em;
+	margin-bottom: 1.3em;
+}
+
+.actives2 {
+	margin-bottom: 1em;
 }
 
 .done {
@@ -355,6 +370,7 @@ main {
     .done {
     	padding-right: 0;
     	width: 72%;
+    	padding-left: 2em;
     }
 
     .market {
@@ -373,6 +389,9 @@ main {
     	margin-bottom: 1.35em;
     }
 
+	.benefita {
+    	margin-bottom: 1.5em;
+    }
     .benefitcontent {
     	margin-bottom: 1.35em;
     }
@@ -433,6 +452,10 @@ main {
 		display: block;
 	}
 
+	.invisible2 {
+		display: none;
+	}
+
 	.desc {
 		width: 33%;
 	}
@@ -452,12 +475,12 @@ main {
 
 	.actives {
 		font-size: 2em;
-		margin-bottom: 1.5em;
+		
 	}
 
 	.active {
 		font-size: 2em;
-		margin-bottom: 1em;
+		margin-bottom: 1.3em;
 	}
 
 	.market {
@@ -479,10 +502,24 @@ main {
 		color: #fff;
 		padding-left: 1em;
 		border-radius: 2px;
-		height: 6%;
+		height: auto;
 		padding-top: .7em;
 		padding-right: .5em;
 		width: 110%;
+		padding-bottom: .7em;
+	}
+
+	.benefit2 {
+		background-color: #ff9700;
+		color: #fff;
+		padding-left: 1em;
+		border-radius: 2px;
+		height: auto;
+		padding-top: .7em;
+		padding-right: .5em;
+		width: 110%;
+		padding-bottom: .7em;
+		margin-bottom: 1em;
 	}
 
 	.exmore {
@@ -495,13 +532,17 @@ main {
 		margin-bottom: 1.5em;
 	}
 
-	.benefitcontent {
+	.benefita {
 		margin-bottom: 1.5em;
+	}
+
+	.benefitcontent {
+		margin-bottom: 3em;
 		margin-left: 1em;
 	}
 
 	.unlimited {
-		margin-bottom: 2.5em;
+		margin-bottom: 3em;
 	}
 
 	.convers {
