@@ -115,6 +115,10 @@ main {
 	margin-bottom: 1em;
 }
 
+.benefitcontent {
+	margin-bottom: 1em;
+}
+
 .expand {
 	color: #ff9700;
 	margin-right: 1em;
@@ -122,7 +126,7 @@ main {
 
 .profes, .busi, .enter {
 	text-align: center;
-	width: 100%;
+	width: 25%;
 }
 
 .profes {
@@ -134,6 +138,7 @@ main {
 	color: #6141e5;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;	
+	width: 25%;
 }
 
 .desc {
@@ -368,6 +373,10 @@ main {
     	margin-bottom: 1.35em;
     }
 
+    .benefitcontent {
+    	margin-bottom: 1.35em;
+    }
+
     .form input {
     	display: block;
     }
@@ -438,7 +447,7 @@ main {
 	}
 
 	.section-benefits {
-		font-size: .50em;
+		font-size: .4em;
 	}
 
 	.actives {
@@ -468,7 +477,12 @@ main {
 	.email {
 		background-color: #ff9700;
 		color: #fff;
-		padding-left: .30em;
+		padding-left: 1em;
+		border-radius: 2px;
+		height: 6%;
+		padding-top: .7em;
+		padding-right: .5em;
+		width: 110%;
 	}
 
 	.exmore {
@@ -478,7 +492,12 @@ main {
 	}
 
 	.benefit {
-		margin-bottom: 3.3em;
+		margin-bottom: 1.5em;
+	}
+
+	.benefitcontent {
+		margin-bottom: 1.5em;
+		margin-left: 1em;
 	}
 
 	.unlimited {
@@ -486,7 +505,7 @@ main {
 	}
 
 	.convers {
-		margin-bottom: 0;
+		margin-bottom: 2em;
 	}
 
 	.submarket {

@@ -9,6 +9,49 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 0px solid #ddd;
+        }
+          
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+  
+        /* width */        
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+  
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+  
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+  
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+          
+        .scroll {
+            display: block;
+            border: 0px solid red;
+            padding: 60px;
+            width: 100%;
+            height: 460px;
+            overflow-y: scroll;
+        }
+    </style>
 	<title>MTarget</title>
 </head>
 <body>
@@ -41,21 +84,26 @@
 			<h6 class="btn">Request demo</h6>
 		</div>
 	</main>
-	<section class="market">
-		<div class="section-benefits">
+
+	<section class="market scroll">
+		<div class="section-benefits" style="height: 470px;">
 			<div class="desc">
 				<span class="material-icons expand">expand_circle_down</span>
 				<ul class="description">
 					<li class="email benefit">Email<span class="material-icons exmore">expand_more</span></li>
-					<li class="benefit">Contact Book</li>
-					<li class="benefit">Personalization Code</li>
-					<li class="benefit">Customer Insight</li>
-					<li class="benefit">Drag & Drop Composer</li>
-					<li class="benefit">Email Automation</li>
-					<li class="benefit">Email Scheduler</li>
-					<li class="benefit">Campaign A/B Test</li>
-					<li class="benefit">Campaign Analytics</li>
-					<li class="benefit convers">AI Conversational Email</li>
+					<li class="benefitcontent">Contact Book</li>
+					<li class="benefitcontent">Personalization Code</li>
+					<li class="benefitcontent">Customer Insight</li>
+					<li class="benefitcontent">Drag & Drop Composer</li>
+					<li class="benefitcontent">Email Automation</li>
+					<li class="benefitcontent">Email Scheduler</li>
+					<li class="benefitcontent">Campaign A/B Test</li>
+					<li class="benefitcontent">Campaign Analytics</li>
+					<li class="benefitcontent convers">AI Conversational Email</li>
+					<li class="email benefit">Web Push Notification<span class="material-icons exmore">expand_more</span></li>
+					<li class="email benefit">App Push Notification<span class="material-icons exmore">expand_more</span></li>
+					<li class="email benefit">Dinamic Banner<span class="material-icons exmore">expand_more</span></li>
+					<li class="email benefit">Whatsapp<span class="material-icons exmore">expand_more</span></li>
 				</ul>
 			</div>
 			<div class="done">
